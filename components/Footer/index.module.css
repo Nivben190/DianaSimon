@@ -1,0 +1,14 @@
+.footer 
+{
+    background-color: transparent;
+    height: 120px;
+    padding-top: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+}
+.logo
+{
+    margin-top: -2%
+   
+}

@@ -1,0 +1,26 @@
+.aboutPageDiv
+{
+  display: flex;
+}
+.mainDiv
+{
+    width: 40%;
+    margin-left: 5%;
+}
+.mainDiv h3
+{
+  color: #5e5e5e;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: -10px;
+}
+.mainDiv p
+{
+    color:#5e5e5e;
+    font-weight: 300;
+    line-height: 1.4em;
+    font-size: 0.95rem;
+    font-style: normal;
+    font-family: "futura-pt" !important;
+
+}
