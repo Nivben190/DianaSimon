@@ -1,16 +1,17 @@
-'use client'
+"use client";
+import React from "react";
+import { useRouter } from "next/router";
+import Image from "next/image";
+const ClickedPictured = (props) => {
+  const router = useRouter();
 
-import React from 'react'
-import { useRouter } from 'next/router'
-const ClickedPictured = ({params}) => {
-    const router = useRouter()
-    alert(JSON.stringify(params))   
   return (
     <div>
-  
-      
-    </div>
-  )
-}
+      {props.title}
 
-export default ClickedPictured
+      <Image src={props.src} alt={props.alt} />
+    </div>
+  );
+};
+
+export default ClickedPictured;

@@ -1,10 +1,16 @@
 "use client";
 import styles from "./index.module.css";
-
+import { PrismaClient } from "@prisma/client";
 import React from "react";
 import Works from "./Works/page";
+import Content from "../components/Content";
 
 const HomePage = () => {
+  const prisma = new PrismaClient();
+  const [works, setWorks] = useState([]);
+
+
+ 
   return (
     // <div className={styles.mainDiv}>
     //   <div className={styles.worksDiv}>
@@ -31,7 +37,7 @@ const HomePage = () => {
     //     </Grid>
     //   </div>
     // </div>
-    <Works/>
+     <Works />
   );
 };
 
