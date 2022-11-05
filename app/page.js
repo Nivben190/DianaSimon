@@ -2,7 +2,9 @@
 import React from "react";
 const HomePage = () => {
   return (
-    <h1>niv is the king</h1>
+      <div>
+        <h1>Home Page</h1>
+      </div>
     // <div className={styles.mainDiv}>
     //   <div className={styles.worksDiv}>
     //     <Grid container align="center">
