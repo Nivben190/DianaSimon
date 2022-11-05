@@ -1,17 +1,11 @@
 "use client";
 
-import styles from "./index.module.css";
 import React from "react";
 import { useState } from "react";
-import Works from "./Works/page";
-import Content from "../components/Content";
 
 const HomePage = () => {
-  const [works, setWorks] = useState([]);
-
-
- 
   return (
+    <h1>niv is the king</h1>
     // <div className={styles.mainDiv}>
     //   <div className={styles.worksDiv}>
     //     <Grid container align="center">
@@ -37,7 +31,7 @@ const HomePage = () => {
     //     </Grid>
     //   </div>
     // </div>
-     <Works />
+    
   );
 };
 
