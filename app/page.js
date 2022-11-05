@@ -1,10 +1,3 @@
-
-const HomePage = () => {
-  return (
-      <div>
-        <h1>Home Page</h1>
-      </div>  
-  );
-};
-
-export default HomePage;
+export default function Page() {
+  return <h1>Hello, Next.js!</h1>;
+}
