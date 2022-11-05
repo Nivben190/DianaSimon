@@ -1,8 +1,5 @@
 "use client";
-
 import React from "react";
-import { useState } from "react";
-
 const HomePage = () => {
   return (
     <h1>niv is the king</h1>
@@ -24,14 +21,13 @@ const HomePage = () => {
     //               }}
     //             ></div>
     //            </Link>
-                
+
     //           </Grid>
     //         );
     //       })}
     //     </Grid>
     //   </div>
     // </div>
-    
   );
 };
 
