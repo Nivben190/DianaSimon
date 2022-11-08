@@ -6,15 +6,77 @@ async function main() {
   const worksImages = await prisma.workImage.createMany({
     data: [
         {
-            id: 1,
+           
             title: "Work 1",
-            ImgUrl:"https://images.unsplash.com/photo-1610390000000-1b1b1b1b1b1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            ImgUrl: "https://i.imgur.com/OQIrVOC.jpg",
         },
         {
-            id: 2,
+        
             title: "Work 2",
-            ImgUrl:"https://images.unsplash.com/photo-1610390000000-1b1b1b1b1b1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            ImgUrl: "https://i.imgur.com/6TP1GPK.jpg",
         },
+        {
+          
+            title: "Work 3",
+            ImgUrl: "https://i.imgur.com/X9BuCfV.jpg",
+        },
+        {
+          
+            title: "Work 4",
+            ImgUrl: "https://i.imgur.com/9ENno8z.jpg",
+        },
+        {
+         
+            title: "Work 5",
+            ImgUrl: "https://i.imgur.com/fc8rrPb.jpg",
+        },
+        {
+          
+            title: "Work 6",
+            ImgUrl: "https://i.imgur.com/ghHQ4AG.jpg",
+        },
+        {
+       
+            title: "Work 7",
+            ImgUrl: "https://i.imgur.com/EHmxBL5.jpg",
+        },
+        {
+     
+            title: "Work 8",
+            ImgUrl: "https://i.imgur.com/v05Irsu.jpg",
+        },
+        {
+      
+            title: "Work 9",
+            ImgUrl: "https://i.imgur.com/MlvFb3p.jpg",
+        },
+        {
+        
+            title: "Work 10",
+            ImgUrl: "https://i.imgur.com/00tQCCj.jpg",
+        },
+        {
+       
+            title: "Work 11",
+            ImgUrl: "https://i.imgur.com/iJigvKC.jpg",
+        },
+        {
+ 
+            title: "Work 12",
+            ImgUrl: "https://i.imgur.com/bvnhEId.jpg",
+        },
+        {
+            title: "Work 13",
+            ImgUrl: "https://i.imgur.com/nEb3aeG.jpg",
+        },
+        {
+            title: "Work 14",
+            ImgUrl: "https://i.imgur.com/p3LekOt.jpg",
+        },
+        {
+            title: "Work 15",
+            ImgUrl: "https://i.imgur.com/zwOzSSU.jpg",
+        }
     ]
     })
 }

@@ -3,16 +3,17 @@ import React from "react";
 import styles from "./index.module.css";
 import leftPic from "../../assets/images/leftAboutPic.jpeg";
 import rightPic from "../../assets/images/rightPic.jpeg";
-export default function AboutPage () {
+export default function AboutPage() {
   return (
     <div className={styles.aboutPageDiv}>
-       <Image alt="pic" width={300} height={400} src={leftPic}/>
+      <Image alt="pic" width={300} height={400} src={leftPic} />
       <div className={styles.mainDiv}>
         <h3>About</h3>
         <p>
           Hi! I am Diana, a Rehovot based illustrator and designer.
           <br />
-          Email me at <strong>nuritillus.91@gmail.com</strong> for collaborations and projects.
+          Email me at <strong>nuritillus.91@gmail.com</strong> for
+          collaborations and projects.
         </p>
         <h3>Worked with</h3>
         <p>
@@ -42,9 +43,7 @@ export default function AboutPage () {
         <h3>Education</h3>
         <p>B.Des. Bezalel Academy.</p>
       </div>
-      <Image alt="pic" width={300} height={300} src={rightPic}/>
+      <Image alt="pic" width={300} height={300} src={rightPic} />
     </div>
   );
-};
-
-
+}

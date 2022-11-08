@@ -1,6 +1,5 @@
 'use client'
 import React, { useState } from "react";
-import InfiniteScroll from "react-infinite-scroll-component";
 
 const Content = ({data}) => {
     const [images, setImages] = useState(data);
@@ -9,15 +8,8 @@ const Content = ({data}) => {
             
   return (
 
-        <InfiniteScroll
-            dataLength={images.length}
-            next={() => {
-            }}
-            hasMore={hasMore}
-            loader={<h4>Loading...</h4>}
-        >
-            {images}
-        </InfiniteScroll>
+        
+            {data}
     
   )
 }
