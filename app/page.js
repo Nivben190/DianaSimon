@@ -1,6 +1,4 @@
-import styles from "./index.module.css";
 import Works from "./Works/page";
-import Content from "../components/Content";
 import { prisma } from "../server/client/db";
 import { use } from "react";
 const HomePage = () => {
