@@ -21,7 +21,7 @@ const Works = ({ data }) => {
               <Grid item xm={6} sm={6} md={4} lg={4} key={index}>
                 <Image
                   className={styles.img}
-                  src={work.ImgUrl}
+                  src={work.imgUrl}
                   width={276}
                   height={272}
                   alt="work of diana shimon"
