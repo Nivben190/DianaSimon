@@ -21,7 +21,7 @@
 {
     .worksDiv
     {
-        width: 100%;
+        width: 80%;
     }
     .img
     {
@@ -51,7 +51,7 @@
     }
     .img
     {
-       width: 200px;
-       height: 200px;
+       width: 90%;
+       height: 90%;
     }
 }

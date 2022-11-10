@@ -18,7 +18,7 @@ const Works = ({ data }) => {
         >
           {data&&Array.from(data).map((work, index) => {
             return (
-              <Grid item xm={6} sm={6} md={4} lg={4} key={index}>
+              <Grid item xs={6} sm={6} md={4} lg={4} key={index}>
                 <Image
                   className={styles.img}
                   src={work.imgUrl}

@@ -42,7 +42,7 @@
   }
 @media screen and (max-width: 768px)
 {
-    .navbar
+    /* .navbar
     {
         display: flex;
         flex-direction: column;
@@ -53,6 +53,23 @@
     {
         margin-top: 5%;
         margin-left: 0%;
+    } */
+    .navbar
+    {
+        display: flex;
+        height: 200px; 
+        margin-top: 0%;
+        width: 100%;
+    }
+     .logo
+    {
+         width: 100%;
+        /* height: 100px;  */
+    } 
+    .imgLogo
+    {
+         width: 100%;
+        height: 100%; 
     }
     .navlinks
     {
@@ -64,18 +81,29 @@
         margin-left: 0px;
     }
 }
+
 @media screen and (max-width: 1208px)
 {
     .logo
     {
+       
+        margin-left: -10%;
+    }
+    .manu
+    {
+        margin-top: -25%;
         margin-left: -10%;
     }
    
 }
+
+    
+
 @media screen and (max-width: 1024px)
 {
     .logo
     {
+        width: 50%;
         margin-left: -10%;
     }
     .navlinks
@@ -91,7 +119,7 @@
 {
     .manu
     {
-         margin-top: -120%;
+         margin-top: -0%;
          margin-left: auto;
          margin-right: auto;
     }
@@ -100,25 +128,18 @@
            position: absolute;
             top: 0%;
             right: 0%;
+            left: 32%;
             width: 100%;
             text-align: center;
     }
     .link
     {
+        margin-right: 20px;
         margin-top: 10px;
-    }
-    .border
-    {
-        background-color: black;
-         left: 5%;
-        height: 2px;
-        position: absolute;
-        bottom: -20%;
-        width: 90%;
-
     }
     .logo
     {
+        margin-top: 2%;
         margin-left: auto;
         margin-right: auto;
     }
