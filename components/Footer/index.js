@@ -10,6 +10,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <a href="https://www.facebook.com/DianaShimonArtistAndIllustrator/">
         <FontAwesomeIcon
+        className={styles.facebook}
           icon={faFacebook}
           style={{
             width: "30px",
@@ -22,6 +23,7 @@ const Footer = () => {
       </a>
       <a href="https://www.instagram.com/shimon_diana/">
         <FontAwesomeIcon
+          className={styles.instegram}
           icon={faInstagram}
           style={{
             width: "30px",

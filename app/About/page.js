@@ -2,11 +2,11 @@ import Image from "next/image";
 import React from "react";
 import styles from "./index.module.css";
 import leftPic from "../../assets/images/leftAboutPic.jpeg";
-import rightPic from "../../assets/images/rightPic.jpeg";
+import rightPic from "../../assets/images/rightAboutPic.jpeg";
 export default function AboutPage() {
   return (
     <div className={styles.aboutPageDiv}>
-      <Image alt="pic" width={300} height={400} src={leftPic} />
+      <Image className={styles.leftPic} alt="picture of drawing" width={300} height={400} src={leftPic} />
       <div className={styles.mainDiv}>
         <h3>About</h3>
         <p>
@@ -43,7 +43,7 @@ export default function AboutPage() {
         <h3>Education</h3>
         <p>B.Des. Bezalel Academy.</p>
       </div>
-      <Image alt="pic" width={300} height={300} src={rightPic} />
+      <Image  className={styles.rightPic}  alt="picture of drawing" width={300} height={400} src={rightPic} />
     </div>
   );
 }
