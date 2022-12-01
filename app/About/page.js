@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./index.module.css";
-import leftPic from "../../assets/images/leftAboutPic.jpeg";
-import rightPic from "../../assets/images/rightAboutPic.jpeg";
+import leftPic from "../../assets/images/leftpic.png";
+import rightPic from "../../assets/images/rightpic.jpg";
 export default function AboutPage() {
   return (
     <div className={styles.aboutPageDiv}>
@@ -10,38 +10,37 @@ export default function AboutPage() {
       <div className={styles.mainDiv}>
         <h3>About</h3>
         <p>
-          Hi! I am Diana, a Rehovot based illustrator and designer.
+         Hi! My name is Diana Shimon.
           <br />
-          Email me at <strong>nuritillus.91@gmail.com</strong> for
-          collaborations and projects.
+          I am an artist, illustrator and book designer from Rechovot, Israel
+          Please contact me for cooperation; dianashimon@gmail.com
         </p>
-        <h3>Worked with</h3>
+        <h3>Short Biography</h3>
         <p>
-          Dot Magazine, The Train Theatre, Adam Tzair magazine,
+         1967 - Was born in Tbilisi, Georgia
           <br />
-          PLANSPONSOR magazine, Zeltner publishing house, Enayim magazine,
-          Liberal,
+          1990 - Immigrated to Israel
           <br />
-          Alefalefalef Magazine.
+          1993 - 1996 Graduate of Avni Institute of fine Art in Old Jaffa, Israel
+          <br />
+          2006- Graphic designer course in Mentor, School of Graphic Design., Tel Aviv.
         </p>
         <h3>Exhibitions</h3>
         <p>
-          2022 ‘follow the sun’, outline Jerusalem, Israel
+        2019 -  Solo exhibition, Tel Aviv. Israel.
           <br />
-          2021 ‘Half of a Winning Horse‘, Israel.
+          2021 – Arte Padova Fiere, Italy
           <br />
-          2020 Tel Aviv Illustration Week, Israel.
+          2022 – Art one piece collection, Galleria &ldquo;Il Collezionosta&ldquo;, Rome, Italy
           <br />
-          2020 outline festival , Jerusalem, Israel.
+          2022 – &ldquo;Touching colors&ldquo;, ZOA House, Israel
+          <br />
+          2022 Mini Print, Lessedra Gallery, Bulgaria
         </p>
         <h3>Awards</h3>
         <p>
-          2022 3x3 Merit, Profession show.
-          <br />
-          2019 Yossi Stern Award for High Achievement in Illustration.
+        2010 – St. Gabriel Award and first place for the most beautiful stamp in the religion category (Verona, Italy)
         </p>
-        <h3>Education</h3>
-        <p>B.Des. Bezalel Academy.</p>
       </div>
       <Image  className={styles.rightPic}  alt="picture of drawing" width={300} height={400} src={rightPic} />
     </div>
