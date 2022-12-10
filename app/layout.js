@@ -4,6 +4,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
       <meta name="google-site-verification" content="dq0-3di7ZNhWPrnALI5J17_AeQsT8_i8KrX1Ux2WdJI" />
       <title>Diana Shimon Gallery Website</title>
       <meta name="descreption" content="diana shimon gallery website, desplay her work and some info about her" />
